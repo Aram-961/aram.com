@@ -5,8 +5,8 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoMars from '@/images/logos/financial.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+// import logoHelioStream from '@/images/logos/helio-stream.svg'
+import logoApple from '@/images/logos/apple.svg'
 import logoCrypto from '@/images/logos/coins.svg'
 
 const projects = [
@@ -29,7 +29,7 @@ const projects = [
     description:
       'Apple static e-commerce website',
     link: { href: 'https://aram-961.github.io/Apple/', label: 'Apple' },
-    logo: logoHelioStream,
+    logo: logoApple,
   },
   {
     name: 'cosmOS',
@@ -43,7 +43,7 @@ const projects = [
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
     link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    // logo: logoOpenShuttle,
   },
 ]
 
@@ -62,7 +62,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Aram Istamboulian</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
